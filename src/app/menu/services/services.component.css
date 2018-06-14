@@ -1,0 +1,25 @@
+div {
+    font-family: 'Tajawal', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: gold;
+}
+h3 {
+    text-align: center;
+    color: #fff;
+}
+.description-services {
+    margin: 0 auto;
+    width: 175vmin;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: white;
+    text-align: justify;
+}
+
+.long-description-services {
+    
+    margin-top: 20px;
+}

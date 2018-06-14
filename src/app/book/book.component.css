@@ -1,0 +1,39 @@
+
+div {
+  font-family: 'Tajawal', sans-serif;
+  text-align: justify;
+}
+
+.content h2 {
+  text-align: center;
+}
+
+.content .p {
+  margin: 0 auto;
+  width: 175vmin;
+ 
+  padding: 20px;
+  color: white;
+}
+
+.phoneForContacts li {
+  list-style-type: none;
+  color: #fff;
+}
+
+.book-footer h2{
+
+    text-align: center;
+}
+
+.book-footer .txt {
+  margin: 0 auto;
+  width: 175vmin;
+
+  padding: 20px;
+  color: white;
+}
+
+h2 {
+  color: #e6b800;
+}

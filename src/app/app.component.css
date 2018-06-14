@@ -1,0 +1,82 @@
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.nav a {
+  text-transform: uppercase;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: bold;
+  font-size: 2.5vmin;
+}
+.nav .first {
+  margin-left: 8vmin;
+  font-family: 'Tajawal', sans-serif;
+}
+.logo {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 7vmin;
+  font-weight: bold;
+  color: #f2f2f2;
+  font-family: 'Indie Flower', cursive;
+
+}
+.nav .second {
+  text-align: right;
+  margin-right: 8vmin;
+  font-family: 'Tajawal', sans-serif;
+}
+
+footer {
+  font-family: 'Tajawal', sans-serif;
+  border: 3px solid #fff;
+  margin: 0 auto;
+  width: 120vmin;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 100px;
+}
+
+footer li {
+  list-style-type: none;
+  
+}
+footer li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 3vmin;
+}
+.email {
+  margin-top: 20px;
+}
+
+.email a{
+text-decoration: none;
+color: #fff;
+font-size: 4vmin;
+}
+.email a:hover {
+  font-size: 4.5vmin;
+  font-weight: bold;
+
+}
+.company li{
+  padding-bottom: 30px;
+}
+.company li a:hover {
+font-size: 3.5vmin;
+font-weight: bold;
+}
+
+.contacts p{
+  font-size: 2.5vmin;
+  padding-bottom: 10px;
+}
+

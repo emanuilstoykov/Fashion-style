@@ -1,0 +1,20 @@
+<mat-card>
+  <mat-card-title>
+    Menu
+  </mat-card-title>
+  <mat-card-content>
+       <a mat-raised-button [routerLink]="['app-about']"  [queryParams]="{debug: true}" fragment="education">
+      About
+    </a>
+    <a mat-raised-button [routerLink]="['app-salons']" [queryParams]="{debug: true}" fragment="education">
+      Salon
+    </a>
+    <a mat-raised-button [routerLink]="['app-services']" [queryParams]="{debug: true}" fragment="education">
+      Services
+    </a>
+
+
+  </mat-card-content>
+
+</mat-card>
+<router-outlet></router-outlet>

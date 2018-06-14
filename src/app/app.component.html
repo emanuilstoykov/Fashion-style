@@ -1,0 +1,64 @@
+<div class="nav">
+  <div class="first">
+    <a mat-raised-button [routerLink]="['app-menu']" routerLinkActive="active" [queryParams]="{debug: true}" fragment="education">
+      menu
+    </a>
+  </div>
+  <div class="logo">
+      <a  [routerLink]="['']" routerLinkActive="active" [queryParams]="{debug: true}" fragment="education">
+         Fashion Style
+        </a>
+  </div>
+  <div class="second">
+    <a mat-raised-button [routerLink]="['app-book']" routerLinkActive="active" [queryParams]="{debug: true}" fragment="education">
+      book
+    </a>
+  </div>
+
+</div>
+
+<router-outlet></router-outlet>
+<footer>
+  <div class="email">
+    <a [href]="'mailto:wallpapershd85@gmail.com'">Send a email</a>
+  </div>
+  <div class="company">
+    <ul>
+      <li>
+        <a [routerLink]="['app-menu/app-about']" [queryParams]="{debug: true}" fragment="education">
+          About
+        </a>
+      </li>
+      <li>
+
+        <a [routerLink]="['app-menu/app-salons']" [queryParams]="{debug: true}" fragment="education">
+          Salon
+        </a>
+      </li>
+      <li>
+        <a [routerLink]="['app-menu/app-services']" [queryParams]="{debug: true}" fragment="education">
+          Services
+</a>
+      </li>
+    </ul>
+  </div>
+  <div class="contacts">
+    <ul>
+      <li>
+        <p>Peter Meanpower</p>
+
+        <p>+64 5642 2465</p>
+      </li>
+      <li>
+        <p>Jana Dark</p>
+
+        <p>+64 58892 255</p>
+      </li>
+      <li>
+        <p>Ms. Douglas</p>
+
+        <p>+82 7896 4561</p>
+      </li>
+    </ul>
+  </div>
+</footer>

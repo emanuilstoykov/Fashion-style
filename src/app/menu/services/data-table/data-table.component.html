@@ -1,0 +1,38 @@
+<div class="mat-elevation-z8 data-table">
+  <mat-table #table [dataSource]="dataSource" matSort aria-label="Elements">
+
+  
+    <ng-container matColumnDef="name">
+      <mat-header-cell *matHeaderCellDef mat-sort-header></mat-header-cell>
+      <mat-cell *matCellDef="let row">{{row.name}}</mat-cell>
+    </ng-container>
+
+
+    <ng-container matColumnDef="firstService">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>Wash, Cut & Blowdry</mat-header-cell>
+      <mat-cell *matCellDef="let row">{{row.firstService}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="secondService">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>Wash, Cut & Finish without Bowdry</mat-header-cell>
+      <mat-cell *matCellDef="let row">{{row.secondService}}</mat-cell>
+    </ng-container>
+
+
+    <ng-container matColumnDef="thirdService">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>Wash & Bowdry</mat-header-cell>
+      <mat-cell *matCellDef="let row">{{row.thirdService}}</mat-cell>
+    </ng-container>
+
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+
+  <mat-paginator #paginator
+    [length]="dataSource.data.length"
+    [pageIndex]="0"
+    [pageSize]="4"
+    [pageSizeOptions]="[1,2,4,8,16,32,64]">
+  </mat-paginator>
+</div>

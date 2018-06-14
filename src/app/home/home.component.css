@@ -1,0 +1,25 @@
+div {
+    font-family: 'Tajawal', sans-serif;
+}
+
+h1 {
+    text-align: center;
+  
+}
+
+.showing {
+    margin: 0 auto;
+    width: 120vmin;
+    
+    padding: 20px;
+    color: white;
+}
+
+.l {
+   
+    margin: 0 auto;
+    width: 120vmin;
+   
+    padding: 20px;
+    color: white;
+}

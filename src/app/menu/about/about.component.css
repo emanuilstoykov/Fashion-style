@@ -1,0 +1,21 @@
+h2 {
+    text-align: center;
+    color: gold;
+}
+.about {
+    margin: 0 auto;
+    width: 175vmin;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    text-align: justify;
+}
+div {
+    font-family: 'Tajawal', sans-serif;
+}
+img {
+    width: 100%;
+}

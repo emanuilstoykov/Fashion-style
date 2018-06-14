@@ -1,0 +1,20 @@
+mat-card-title {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+mat-card-content {
+    text-align: center;
+}
+mat-card {
+    background: rgba(0, 0, 0, 0.3);
+  
+}
+a {
+    margin-top: 2vmin;
+    width: 20vmin;
+    height: 5vmin;;
+    font-size: 3.5vmin;
+    margin-right: 5vmin;
+    font-family: 'Tajawal', sans-serif;
+}
